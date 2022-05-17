@@ -42,7 +42,7 @@ public class UserController {
         return ResponseEntity.ok().body(user);
     }
 
-    // methode create user
+    // methode create users
     @PostMapping("/users/create")
     public User createUser(@RequestBody User user) {
         System.out.println("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& " + user);
